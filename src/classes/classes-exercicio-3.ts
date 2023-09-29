@@ -12,7 +12,7 @@ class Animal {
         this.pelagem = pelagem;
     }
 
-    andar() {
+    mover() {
         console.log('Animal andando');
     }
 
@@ -29,11 +29,11 @@ export class Cachorro extends Animal {
         this.orelhas = orelhas;
     }
 
-    andar() {
+    passear() {
         console.log('Cachorro passeando.');
     }
 
-    fazerSom() {
+    latir() {
         console.log('Au Au Au!');
     }
 }
@@ -46,11 +46,11 @@ export class Cavalo extends Animal {
         this.crina = crina;
     }
 
-    andar() {
+    galopar() {
         console.log('Cavalo galopando.');
     }
 
-    fazerSom() {
+    relinchar() {
         console.log('Relinchando!');
     }
 }
@@ -68,7 +68,7 @@ export class Gato extends Animal {
         console.log('Gato andando.');
     }
 
-    fazerSom() {
+    miar() {
         console.log('Miau!');
     }
 }
